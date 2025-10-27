@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOCKY TRAINING CENTER</title>
+    <!-- daisy ui and tailwind -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- google fonts  -->
+     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+     <!-- font awsome cdn link  -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <style>
+        .font-manrope{
+            font-family: "Manrope", sans-serif;
+        }
+     </style>
+</head>
+<body class="font-manrope lg:mx-6">
+    <header class="lg:mx-32">
+        <section>
+            <!-- nav bar section -->
+            <div class="navbar bg-base-100">
+                <!-- Left section -->
+                <div class="navbar-start">
+                    <!-- Mobile dropdown -->
+                    <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a class="text-red-500 font-semibold">Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                    </div>
+
+                    <!-- Logo -->
+                    <a class="btn btn-ghost normal-case text-2xl font-extrabold">
+                    Hockey<span class="text-red-500 text-3xl leading-none">’</span>s
+                    </a>
+                </div>
+
+                <!-- Center section (hidden on mobile) -->
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                    <li><a class="text-red-500 font-semibold">Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Right section -->
+                <div class="navbar-end space-x-3">
+                    <button class="btn btn-ghost btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M21 21l-4.35-4.35M10 18a8 8 0 100-16 8 8 0 000 16z" />
+                    </svg>
+                    </button>
+                    <a class="btn bg-red-500 text-white hover:bg-red-600">Get Ticket</a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="carousel w-full sm:h-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img
+                    src="./Images/1.png"
+                    class="w-full" />
+                    <div class="absolute lg:bottom-4 -bottom-20 lg:right-4 bg-black text-white p-4 rounded-xl text-center">
+                        <h3 class="font-extrabold lg:text-2xl">Meet all the heroes from the field</h3>
+                        <p class="font-medium ">
+                            Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br>
+                            turpis placerat dolor. Purus urna in sit nullam proin. 
+                        </p>
+                    </div>
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img
+                    src="./Images/1.png"
+                    class="w-full" />
+                    <div class="absolute lg:bottom-4 -bottom-20 lg:right-4 bg-black text-white p-4 rounded-xl text-center">
+                        <h3 class="font-extrabold lg:text-2xl">Meet all the heroes from the field</h3>
+                        <p class="font-medium ">
+                            Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br>
+                            turpis placerat dolor. Purus urna in sit nullam proin. 
+                        </p>
+                    </div>
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img
+                    src="./Images/1.png"
+                    class="w-full" />
+                    <div class="absolute lg:bottom-4 -bottom-20 lg:right-4 bg-black text-white p-4 rounded-xl text-center">
+                        <h3 class="font-extrabold lg:text-2xl">Meet all the heroes from the field</h3>
+                        <p class="font-medium ">
+                            Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br>
+                            turpis placerat dolor. Purus urna in sit nullam proin. 
+                        </p>
+                    </div>
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img
+                    src="./Images/1.png"
+                    class="w-full" />
+                    <div class="absolute lg:bottom-4 -bottom-20 lg:right-4 bg-black text-white p-4 rounded-xl text-center">
+                        <h3 class="font-extrabold lg:text-2xl">Meet all the heroes from the field</h3>
+                        <p class="font-medium ">
+                            Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br>
+                            turpis placerat dolor. Purus urna in sit nullam proin. 
+                        </p>
+                    </div>
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="lg:mx-32">
+        <section class="my-16 mx-auto text-center items-center">
+            <h3 class="text-4xl mb-3 font-extrabold">Professional Hockeys Club</h3>
+            <p class="font-medium text-base">
+                Professional Hockeys Club is a premier hockey organization dedicated to <br>
+                excellence, teamwork, and sportsmanship.
+            </p>
+        </section>
+        <!-- progress bar section -->
+        <section class="flex justify-evenly items-center mx-auto lg:my-16 lg:px-4">
+            <!-- Left Side: Progress Circles -->
+            <div class="grid lg:grid-cols-4 gap-4">
+                <!-- Item 1 -->
+                <div class="text-center">
+                    <div class="radial-progress text-red-500" style="--value:87; --size:8rem; --thickness:10px;">
+                        <span class="text-xl font-bold text-black">87%</span>
+                    </div>
+                    <h3 class="text-lg font-semibold mt-3">Prayer Facility</h3>
+                    <p class="text-gray-500 text-sm">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="text-center">
+                    <div class="radial-progress text-green-400" style="--value:95; --size:8rem; --thickness:10px;">
+                        <span class="text-2xl font-bold text-black">95%</span>
+                    </div>
+                    <h3 class="text-lg font-semibold mt-3">Experienced Coach</h3>
+                    <p class="text-gray-500 text-sm">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="text-center">
+                    <div class="radial-progress text-yellow-400" style="--value:90; --size:8rem; --thickness:10px;">
+                        <span class="text-2xl font-bold text-black">90%</span>
+                    </div>
+                    <h3 class="text-lg font-semibold mt-3">Senior Player</h3>
+                    <p class="text-gray-500 text-sm">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="text-center">
+                    <div class="radial-progress text-blue-500" style="--value:80; --size:8rem; --thickness:10px;">
+                        <span class="text-2xl font-bold text-black">80%</span>
+                    </div>
+                    <h3 class="text-lg font-semibold mt-3">Training Ground</h3>
+                    <p class="text-gray-500 text-sm">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                </div>
+            </div>
+        </section>
+        <!-- progress bottom center -->
+         <section class="my-16 mx-auto text-center items-center">
+            <h3 class="text-4xl mb-3 font-extrabold">Program Sections</h3>
+            <p class="font-medium text-base">
+                Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin.
+            </p>
+        </section>
+        <!-- card and collaps section  -->
+        <section>
+            <!-- <div>
+                <div class="bg-[url(/images/11.png)] h-full bg-cover bg-center bg-no-repeat">
+                    <p>Amar sonar Bangla.</p>
+                </div>
+            </div> -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 my-16 items-center justify-center mx-auto left-4 relative">
+                <div class="card bg-base-100 image-full mx-auto">
+                    <figure>
+                        <img
+                        src="./Images/2.png"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="card-body lg:p-8">
+                        <h2 class="card-title font-extrabold text-3xl">Junior Program</h2>
+                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor congue sed et in.
+                        </p>
+                        <div class="card-actions">
+                        <button class="btn bg-red-500 text-white border-none shadow-none">Register Now!</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 image-full mx-auto">
+                    <figure>
+                        <img
+                        src="./Images/3.png"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="card-body lg:p-8">
+                        <h2 class="card-title font-extrabold text-3xl">Teenager Program</h2>
+                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor congue sed et in.
+                        </p>
+                        <div class="card-actions ">
+                        <button class="btn bg-red-500 text-white border-none shadow-none">Register Now!</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 image-full mx-auto lg:col-span-2">
+                    <figure>
+                        <img
+                        src="./Images/4.png"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="card-body lg:p-14">
+                        <h2 class="card-title font-extrabold text-3xl">Professional Program</h2>
+                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor congue sed et in.
+                        </p>
+                        <div class="card-actions ">
+                        <button class="btn bg-red-500 text-white border-none shadow-none">Register Now!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="my-16 mx-auto text-center items-center">
+            <h3 class="text-4xl mb-3 font-extrabold">Our New Products</h3>
+            <p class="font-medium text-base">
+                Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br>
+                 dolor. Purus urna in sit nullam proin.
+            </p>
+        </section>
+        <!-- sectioon for shop of this institude  -->
+         <section>
+            <div class="grid lg:grid-cols-2 gap-8">
+                <!-- cart one  -->
+                <div class="card lg:card-side bg-base-100 shadow-sm">
+                    <figure>
+                        <img class="rounded-xl p-2"
+                        src="./Images/5.png"
+                        alt="Album" />
+                    </figure>
+                    <div class="card-body">
+                        <p>
+                            <i class="fa-solid fa-star text-yellow-500"></i> <span class="m-2">5.0</span>
+                            <i class="fa-solid fa-eye  text-yellow-500"></i><span class="m-2">20</span>
+                            <i class="fa-solid fa-heart  text-yellow-500"></i><span class="m-2">200</span>
+                        </p>
+                        <h2 class="font-extrabold text-lg">World Cup Flags Football</h2>
+                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <div class="flex flex-col lg:flex-row justify-between">
+                            <h4 class="font-extrabold text-lg text-red-700">Price - $22.00</h4>
+                            <h3><i class="fa-solid fa-cart-shopping mr-1"></i></i><span>Delivery Fee : Free</span></h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- cart two  -->
+                <div class="card lg:card-side bg-base-100 shadow-sm">
+                    <figure>
+                        <img class="rounded-xl p-2"
+                        src="./Images/6.png"
+                        alt="Album" />
+                    </figure>
+                    <div class="card-body">
+                        <p>
+                            <i class="fa-solid fa-star text-yellow-500"></i> <span class="m-2">5.0</span>
+                            <i class="fa-solid fa-eye  text-yellow-500"></i><span class="m-2">20</span>
+                            <i class="fa-solid fa-heart  text-yellow-500"></i><span class="m-2">200</span>
+                        </p>
+                        <h2 class="font-extrabold text-lg">World Cup Flags Football</h2>
+                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <div class="flex flex-col lg:flex-row justify-between">
+                            <h4 class="font-extrabold text-lg text-red-700">Price - $22.00</h4>
+                            <h3><i class="fa-solid fa-cart-shopping mr-1"></i></i><span>Delivery Fee : Free</span></h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- cart three  -->
+                <div class="card lg:card-side bg-base-100 shadow-sm">
+                    <figure>
+                        <img class="rounded-xl p-2"
+                        src="./Images/7.png"
+                        alt="Album" />
+                    </figure>
+                    <div class="card-body">
+                        <p>
+                            <i class="fa-solid fa-star text-yellow-500"></i> <span class="m-2">5.0</span>
+                            <i class="fa-solid fa-eye  text-yellow-500"></i><span class="m-2">20</span>
+                            <i class="fa-solid fa-heart  text-yellow-500"></i><span class="m-2">200</span>
+                        </p>
+                        <h2 class="font-extrabold text-lg">World Cup Flags Football</h2>
+                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <div class="flex flex-col lg:flex-row justify-between">
+                            <h4 class="font-extrabold text-lg text-red-700">Price - $22.00</h4>
+                            <h3><i class="fa-solid fa-cart-shopping mr-1"></i></i><span>Delivery Fee : Free</span></h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- cart four  -->
+                <div class="card lg:card-side bg-base-100 shadow-sm">
+                    <figure>
+                        <img class="rounded-xl p-2"
+                        src="./Images/8.png"
+                        alt="Album" />
+                    </figure>
+                    <div class="card-body">
+                        <p>
+                            <i class="fa-solid fa-star text-yellow-500"></i> <span class="m-2">5.0</span>
+                            <i class="fa-solid fa-eye  text-yellow-500"></i><span class="m-2">20</span>
+                            <i class="fa-solid fa-heart  text-yellow-500"></i><span class="m-2">200</span>
+                        </p>
+                        <h2 class="font-extrabold text-lg">World Cup Flags Football</h2>
+                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <div class="flex flex-col lg:flex-row justify-between">
+                            <h4 class="font-extrabold text-lg text-red-700">Price - $22.00</h4>
+                            <h3><i class="fa-solid fa-cart-shopping mr-1"></i></i><span>Delivery Fee : Free</span></h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- cart five  -->
+                <div class="card lg:card-side bg-base-100 shadow-sm">
+                    <figure>
+                        <img class="rounded-xl p-2"
+                        src="./Images/9.png"
+                        alt="Album" />
+                    </figure>
+                    <div class="card-body">
+                        <p>
+                            <i class="fa-solid fa-star text-yellow-500"></i> <span class="m-2">5.0</span>
+                            <i class="fa-solid fa-eye  text-yellow-500"></i><span class="m-2">20</span>
+                            <i class="fa-solid fa-heart  text-yellow-500"></i><span class="m-2">200</span>
+                        </p>
+                        <h2 class="font-extrabold text-lg">World Cup Flags Football</h2>
+                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <div class="flex flex-col lg:flex-row justify-between">
+                            <h4 class="font-extrabold text-lg text-red-700">Price - $22.00</h4>
+                            <h3><i class="fa-solid fa-cart-shopping mr-1"></i></i><span>Delivery Fee : Free</span></h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- cart six  -->
+                <div class="card lg:card-side bg-base-100 shadow-sm">
+                    <figure>
+                        <img class="rounded-xl p-2"
+                        src="./Images/10.png"
+                        alt="Album" />
+                    </figure>
+                    <div class="card-body">
+                        <p>
+                            <i class="fa-solid fa-star text-yellow-500"></i> <span class="m-2">5.0</span>
+                            <i class="fa-solid fa-eye  text-yellow-500"></i><span class="m-2">20</span>
+                            <i class="fa-solid fa-heart  text-yellow-500"></i><span class="m-2">200</span>
+                        </p>
+                        <h2 class="font-extrabold text-lg">World Cup Flags Football</h2>
+                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <div class="flex flex-col lg:flex-row justify-between">
+                            <h4 class="font-extrabold text-lg text-red-700">Price - $22.00</h4>
+                            <h3><i class="fa-solid fa-cart-shopping mr-1"></i></i><span>Delivery Fee : Free</span></h3>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+         </section>
+        <!-- cliant question section write  -->
+        <section class="my-16 mx-auto text-center items-center">
+            <h3 class="text-4xl mb-3 font-extrabold">Clients Question</h3>
+            <p class="font-medium text-base">
+                Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br>
+                 dolor. Purus urna in sit nullam proin.
+            </p>
+        </section>
+        <!-- question mark and question and answer  -->
+        <section>
+            <div class="card lg:card-side bg-base-100 shadow-sm rounded-xl">
+                <figure class="p-8">
+                    <img
+                    src="./Images/11.png"
+                    alt="Album" />
+                </figure>
+                <div class="card-body justify-center">
+                    <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title font-semibold">
+                            Our Equipment
+                        </div>
+                        <div class="collapse-content text-sm">
+                            Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title font-semibold">
+                            Hockey Training
+                        </div>
+                        <div class="collapse-content text-sm">
+                            Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title font-semibold">
+                            Private Lessons
+                        </div>
+                        <div class="collapse-content text-sm">
+                            Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title font-semibold">
+                            Ski Touring
+                        </div>
+                        <div class="collapse-content text-sm">
+                            Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title font-semibold">
+                            Booking
+                        </div>
+                        <div class="collapse-content text-sm">
+                            Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title font-semibold">
+                            Pricings
+                        </div>
+                        <div class="collapse-content text-sm">
+                            Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <!-- get in touch section heading  -->
+        <section class="my-16 mx-auto text-center items-center">
+            <h3 class="text-4xl mb-3 font-extrabold">Get In Touch</h3>
+            <p class="font-medium text-base">
+                Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. 
+            </p>
+        </section>
+        <!-- last input section and contact numbder  -->
+        <section class="max-w-6xl mx-auto p-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <!-- Left Contact Info -->
+                <div class="space-y-6">
+                    <!-- Phone -->
+                    <div class="card bg-green-50 shadow-md">
+                        <div class="card-body flex items-center space-x-4">
+                            <i class="fa-solid fa-phone text-3xl text-green-500"></i>
+                            <div>
+                                <p class="text-gray-500 text-sm">Phone Number :</p>
+                                <h3 class="font-semibold">(+62) 123-321-543</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="card bg-yellow-50 shadow-md">
+                        <div class="card-body flex items-center space-x-4">
+                            <i class="fa-solid fa-envelope text-3xl text-yellow-500"></i>
+                            <div>
+                                <p class="text-gray-500 text-sm">Email :</p>
+                                <h3 class="font-semibold">hockeys@support.com</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Location -->
+                    <div class="card bg-blue-50 shadow-md">
+                        <div class="card-body flex items-center space-x-4">
+                            <i class="fa-solid fa-location-dot text-3xl text-blue-500"></i>
+                            <div>
+                                <p class="text-gray-500 text-sm">Location :</p>
+                                <h3 class="font-semibold">152/1 Mohakhali Wireless Gate</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Form Section -->
+                <div>
+                    <form class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                        <div>
+                            <label class="font-semibold">Your Name</label>
+                            <input type="text" placeholder="Enter your full name" class="input input-bordered w-full mt-2" />
+                        </div>
+                        <div>
+                            <label class="font-semibold">Your Email</label>
+                            <input type="email" placeholder="Enter your email" class="input input-bordered w-full mt-2" />
+                        </div>
+                        <div>
+                            <label class="font-semibold">Subject</label>
+                            <input type="text" placeholder="Enter your subject" class="input input-bordered w-full mt-2" />
+                        </div>
+                        <div>
+                            <label class="font-semibold">Phone Number</label>
+                            <input type="text" placeholder="Enter your phone number" class="input input-bordered w-full mt-2" />
+                        </div>
+                        <div class="lg:col-span-2">
+                            <label class="font-semibold">Message</label>
+                            <textarea class="textarea textarea-bordered w-full mt-2 h-32" placeholder="Write your message"></textarea>
+                        </div>
+                        <div class="lg:col-span-2">
+                            <button class="btn bg-red-500 hover:bg-red-600 text-white w-full mt-2">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Social Media -->
+            <div class="bg-gray-50 mt-8 rounded-xl p-6 text-center">
+                <h3 class="font-semibold mb-4">Social Media</h3>
+                <div class="flex justify-center space-x-6 text-xl">
+                    <a href="#" class="hover:text-red-500"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="hover:text-red-500"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="hover:text-red-500"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="hover:text-red-500"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- footer section code  -->
+     <footer class="footer sm:footer-horizontal bg-neutral text-neutral-content p-10">
+        <aside>
+            <h2 class="font-extrabold text-xl ">Get In Touch</h2>
+            <p>
+                Dit amet consectetur. Condimentum <br> adipiscing aliquam turpis placerat dolor. Purus <br>urna in sit nullam proin. 
+            </p>
+            <p class=""><i class="fa-solid fa-envelope"></i> hockeys@support.com</p>
+            <p><i class="fa-solid fa-phone"></i>(+62) 123-321-543 </p>
+            
+        </aside>
+        <nav>
+            <h6 class="footer-title">Company</h6>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Leadership</a>
+            <a class="link link-hover">Careers</a>
+            <a class="link link-hover">News & Article</a>
+            <a class="link link-hover">Legal Notice</a>
+        </nav>
+        <nav>
+            <h6 class="footer-title">Support</h6>
+            <a class="link link-hover">Help Center</a>
+            <a class="link link-hover">FAQ</a>
+            <a class="link link-hover">Ticket Support</a>
+            <a class="link link-hover">Contact Us</a>
+        </nav>
+        <nav>
+            <h6 class="footer-title">Services</h6>
+            <a class="link link-hover">Academy</a>
+            <a class="link link-hover">Group Lesson</a>
+            <a class="link link-hover">Private Lesson</a>
+            <a class="link link-hover">Hockeys for kids</a>
+            <a class="link link-hover">Hockeys for Adult</a>
+        </nav>
+    </footer>
+</body>
+</html>
